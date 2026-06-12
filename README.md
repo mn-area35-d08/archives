@@ -1,5 +1,7 @@
 # README.md for District 8 Archives
 
+[![Deploy Docs](https://github.com/mn-area35-d08/archives/actions/workflows/deploy-docs.yml/badge.svg?branch=main)](https://mn-area35-d08.github.io/archives/)
+
 Everything can be edited in your browser.
 Officers have edit access.
 If you would like to help, please contact our DCM.
