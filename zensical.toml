@@ -8,12 +8,11 @@
 # OBS: Zensical builds the public website into site/.
 
 [project]
-site_name = "District 8 Archives" # CUSTOM: Name of the documentation site.
+site_name = "Archives" # CUSTOM: Browser tab name and site header
 site_url = "https://mn-area35-d08.github.io/archives/"
 repo_url = "https://github.com/mn-area35-d08/archives"
 repo_name = "mn-area35-d08/archives"
-site_description = "District 8 Archives" # CUSTOM: A brief description 
-
+site_description = "District 8 Archives" # CUSTOM: A brief description
 docs_dir = "docs" # source directory for documentation markdown files
 site_dir = "site" # output directory for generated site (ignored by Git; not in repo)
 edit_uri = "edit/main/docs/" # "Edit this page" links (GitHub)

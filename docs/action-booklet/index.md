@@ -2,8 +2,6 @@
 
 > A chronicle of conclusions and actions since January 1983
 
-![logo](images/favicon_io/android-chrome-192x192.png)
-
 ## Table of Contents
 
 ### Introductory Pages
