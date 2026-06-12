@@ -1,0 +1,17 @@
+# ============================================================
+# pyproject.toml (Python project configuration)
+# ============================================================
+# REQ: We use a Python tool to build the website.
+
+
+[project]
+name = "district-8-archives"
+version = "0.1.0"
+description = "District 8 public archive site."
+requires-python = ">=3.14"
+dependencies = []
+
+[project.optional-dependencies]
+docs = [
+  "zensical",
+]

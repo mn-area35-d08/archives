@@ -1,0 +1,108 @@
+# ============================================================
+# .github/workflows/deploy-docs.yml
+# ============================================================
+# WHY-FILE: Build the Markdown archive with Zensical and deploy it to GitHub Pages.
+#
+# REQ: Repo Settings -> Pages -> Build and deployment -> Source:
+#      GitHub Actions
+# WHY: Without this setting, the deploy-pages action can fail with a 403.
+#
+# OBS: Officers edit Markdown files in docs/.
+# OBS: Zensical builds the public website into site/.
+# OBS: This workflow deploys only on pushes to main or manual runs.
+
+name: Deploy Docs
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+env:
+  PYTHONUNBUFFERED: "1"
+  PYTHONIOENCODING: "utf-8"
+  UV_PYTHON: "3.14"
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  docs:
+    name: Build and deploy docs
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      # ============================================================
+      # A) ASSEMBLE: Checkout and prepare Python
+      # ============================================================
+
+      - name: A1) Check out repository
+        uses: actions/checkout@v6
+
+      - name: A2) Configure GitHub Pages
+        uses: actions/configure-pages@v6
+
+      - name: A3) Install uv
+        uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+          cache-dependency-glob: "uv.lock"
+
+      - name: A4) Install Python
+        run: uv python install 3.14
+
+      - name: A5) Install dependencies
+        run: uv sync --extra docs --upgrade
+
+      - name: A6) Show tool versions
+        run: |
+          uv --version
+          uv run python --version
+          uv run python -m zensical --version
+
+      # ============================================================
+      # B) BUILD: Generate the static site
+      # ============================================================
+
+      - name: B1) Verify Zensical config exists
+        run: |
+          if [ ! -f "zensical.toml" ]; then
+            echo "zensical.toml not found; refusing to deploy." >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi
+
+      - name: B2) Build docs with Zensical
+        run: uv run python -m zensical build
+
+      - name: B3) Verify site output exists
+        run: |
+          if [ ! -d "site" ]; then
+            echo "## Documentation build output missing" >> "$GITHUB_STEP_SUMMARY"
+            echo "Expected directory 'site/' was not created." >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi
+
+      # ============================================================
+      # C) DEPLOY: Publish generated site
+      # ============================================================
+
+      - name: C1) Upload Pages artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+
+      - name: C2) Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
