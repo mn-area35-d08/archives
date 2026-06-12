@@ -1,14 +1,12 @@
-# archives
+# README.md for District 8 Archives
 
 Everything can be edited in your browser.
 Officers have edit access.
-If you would like to help, please contact the DCM.
+If you would like to help, please contact our DCM.
 
 ## Optional: Prepare Site on a Local Machine
 
 ## Command Reference
-
-
 
 <details>
 <summary>Show command reference</summary>

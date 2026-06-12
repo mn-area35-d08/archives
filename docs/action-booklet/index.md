@@ -9,8 +9,8 @@
 ### Introductory Pages
 
 - [Forwards](00-forwards.md)
-- [01. District Meeting Place](district-meeting-place.md)
-- [02. District Meeting Schedule](district-meeting-schedule.md)
+- [01. District Meeting Place and Format](01-district-meeting-place-format.md)
+- [02. District Meeting Schedule](02-district-meeting-schedule.md)
 
 ### Resolution Sections
 
