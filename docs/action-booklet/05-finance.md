@@ -75,8 +75,6 @@ Motion carried to send DCM and 4 standing committee chairs to Crosby at a cost o
 
 Approved $18.75 each for 4 committee chairs and $38.00 for DCM to attend Area Assembly.
 
-17
-
 ## October 1986
 
 Approved $44.50 each for DCM and one other to attend Grand Rapids Area Workshop for two days and one
@@ -363,9 +361,9 @@ the chairperson at all Area meetings, assemblies and workshops.
 ## August 1992
 
 Stated for the record, the following are expenses that don’t need a vote:
-A)The $18.75 meal and travel expense of going to the Area Committee meeting.
-B)The secretary’s expense.
-C)$5.00 a month for miscellaneous expenses for each action committee that cannot accumulate.
+A) The $18.75 meal and travel expense of going to the Area Committee meeting.
+B) The secretary’s expense.
+C) $5.00 a month for miscellaneous expenses for each action committee that cannot accumulate.
 All other expenses need to be voted on at the district meeting.
 
 ## October 1992
