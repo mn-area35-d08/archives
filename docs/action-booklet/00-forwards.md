@@ -2,7 +2,8 @@
 
 ## First Foreword
 
-This work is the combined effort of many members of the 1992 District committee. We did our best, but it may not be flawless. It should be noted that most of the facts entered here are motions that passed, or are January 1983 to August 1992. It is the hope of everyone involved with this project that this booklet will consensuses that are actions. Failed motions were omitted. The period of recapitulation of minutes is from give future committees a sense of what the policies have been. Not knowing that has been a problem in the past.
+This work is the combined effort of many members of the 1992 District committee.
+We did our best, but it may not be flawless. It should be noted that most of the facts entered here are motions that passed, or are January 1983 to August 1992. It is the hope of everyone involved with this project that this booklet will consensuses that are actions. Failed motions were omitted. The period of recapitulation of minutes is from give future committees a sense of what the policies have been. Not knowing that has been a problem in the past.
 
 ## Second Foreword
 
@@ -39,3 +40,14 @@ This is the ninth edition of the District 8 Action Booklet. It includes new acti
 ## Tenth Foreword
 
 This is the tenth edition of the District 8 Action Booklet. It includes new actions from January 2018 to December 2023. The period 2019-2021 is mostly unrecorded due to the Covid-19 pandemic when district meetings were virtual and there was no secretary.
+
+## Eleventh Foreword
+
+This Eleventh edition of the District 8 Action Booklet includes the recorded actions of the District
+from January 2024 through December 2025. It has been reviewed and updated by the 2026-
+2027 District Secretary and Treasurer.
+In this edition, one new category has been added: Website, along with a corresponding Trusted
+Servant Guideline for the Position of Web Manager. These additions reflect our ongoing efforts
+to adapt to current needs while remaining grounded in our primary purpose.
+As with previous editions, this booklet serves as a record of the District’s group conscience in
+action, and as a resource for trusted servants as they carry out their responsibilities.

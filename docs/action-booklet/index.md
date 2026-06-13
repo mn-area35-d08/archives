@@ -1,6 +1,6 @@
 # District 8 Area 35 Action Booklet
 
-> A chronicle of conclusions and actions since January 1983
+> A chronicle of conclusions, actions, and trusted servant guidelines since January 1983
 
 ## Table of Contents
 
@@ -28,3 +28,4 @@
 - [16. Archives](16-archives.md)
 - [17. Miscellaneous](17-miscellaneous.md)
 - [18. Corrections](18-corrections.md)
+- [19. Website](19-website.md)
