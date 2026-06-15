@@ -50,22 +50,30 @@ Motion passed to not split the Corrections/Treatment committee during this rotat
 
 ## June 2007
 Motion passed to split the Corrections/Treatment committee at next rotation.
-August 2007
+
+## August 2007
 Motion passed to table discussion of whether to provide AA literature for Arrowhead Treatment Center.
-July 2008
+
+## July 2008
 Motion passed to have District 8 DCM talk with District 9 DCM regarding miscommunication going on with District 9 about the C/T commitments in a lot of different situations. Treatment facilities are asking District 8 to do commitments.
-October 2008
+
+## October 2008
 Motion passed to put in minutes the next 4 to 8 weeks of groups signed up to volunteer to speak at treatment centers.
-July 2009
+
+## July 2009
 Motion passed to bring back to groups the possibility of having another district commitment.
-June 2010
+
+## June 2010
 Motion passed to have the two DCM’s and two Correction’s Chairs from District 8 and 9 arrange to meet and bring to the facility a plan on future meetings at Mesabi Academy in Buhl.
-August 2015
+
+## August 2015
 Motion passed to combine Treatment and Corrections into one position.
-September 2015
+
+## September 2015
 Motion passed to separate Treatment/Corrections position into two positions.
-August 2017
+
+## August 2017
 Motion passed to provide Range Treatment Center with Sunday night speakers on 2nd & 4th Sundays only, due to lack of participation.
 
-July 10, 2025
+## July 10, 2025
 Hold speaker meetings at the Treatment Center on Wednesdays instead of Thursdays.  Pass
