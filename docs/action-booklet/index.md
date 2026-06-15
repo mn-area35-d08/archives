@@ -32,4 +32,4 @@
 
 ### Guidelines Section
 
--[DCM District Committee Member]_(DCM.md)
+- [DCM District Committee Member](dcm.md)
