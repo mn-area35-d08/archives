@@ -33,3 +33,12 @@
 ### Guidelines Section
 
 - [DCM District Committee Member](dcm.md)
+- [Alternate DCM](altdcm.md)
+- [Secretary](secretary.md)
+- [Treasurer](treasurer.md)
+- [Archives](archives.md)
+- [Treatment Chair](treatment-chair.md)
+- [Corrections Chair](corrections-chair.md)
+- [Grapevine / Literature](grapevine-literature.md)
+- [Public Information / Cooperation with the Professional Community](pi-cpc.md)
+- [Web Manager](web-manager.md)
