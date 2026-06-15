@@ -29,3 +29,7 @@
 - [17. Miscellaneous](17-miscellaneous.md)
 - [18. Corrections](18-corrections.md)
 - [19. Website](19-website.md)
+
+### Guidelines Section
+
+-[DCM District Committee Member]_(DCM.md)
