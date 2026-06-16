@@ -22,3 +22,22 @@ Every district is different, but the following are relatively common service act
 7.	Alert the District GSRs to new literature, service materials and technology applications from the G.S.O. and Grapevine.  This includes new books published by A.A. World Ser-vices and the Grapevine.  The literature catalogs of the two corporations are an excellent resource.  DCMs often hear about new literature before it appears in the catalog, and it can be helpful to alert GSRs on what’s coming.  The groups may have questions and comments on these.  The DCM can help the GSRs address these while also passing them along to the Area and the Delegate.
 
 8.	Assist Delegate in obtaining group contact information for A.A. Regional Directories.  These directories are used for A.A. purposes only.  They include information on indi-vidual groups by city within each province or territory, with contact information on group contacts.
+
+9.	In many areas, DCMs attend Area Committee Meetings in addition to Area Assemblies.  The purpose and scheduling of these meetings vary by Area.  (For more information, See Chapter 4 of this Manual of the Area Committees.
+
+## GUIDELINES SPECIFIC TO DISTRICT 8
+Updated February 2024
+
+1.	At the December ACM prior to the first month of the new rotation, District numbers will be pulled from the hat, and the DCM from that District will be assigned to an Area service committee, such as Public Information, Literature, Corrections, etc.  DCMs shall attend the Area Service Committee Meetings held at the Assemblies and Area Committee Meeting (ACMs).
+
+2.	Area 35 has to Assemblies each year, April and October, and four ACMs, the first week-end of the month in February, June, August and December.  DCMs shall attend all of these events.
+
+3.	DCMs. Shall attend the annual West Central Regional A.A. Service Conference each March.
+
+4.	DCMs shall attend the biannual West Central Regional Forum held in August or Sep-tember of the 2nd year of the rotation.
+
+5.	DCMs will be funded by District 8 to attend all of these events.  DCMs shall be prudent with their spending and will find others to share rooms and rides with, in order to mini-mize expenses to the District.
+
+6.	Update the Trusted Servant Guidelines and submit the updates by June of the second year to the District Secretary.
+
+7.	Send out reminders of upcoming District meetings via email.
