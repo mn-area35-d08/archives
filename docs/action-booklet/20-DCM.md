@@ -1,4 +1,4 @@
-# DCM
+# DCM - District Committee Member
 
 ## DCM TRUSTED SERVANT GUIDELINES
 
