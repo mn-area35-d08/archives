@@ -1,4 +1,4 @@
-# ALTERNATE DCM TRUSTED SERVANT GUIDELINES
+# ALTERNATE DCM Trusted Servant Guidelines
 District 8
 
 Updated February 2024
