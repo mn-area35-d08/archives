@@ -1,4 +1,4 @@
-# DCM - District Committee Member-Trusted Servant Guidelines
+# DCM - District Committee Member Trusted Servant Guidelines
 
 From AA Service Manual p. 15, 2021-2023 edition
 Additional duties for District 8 Area 35 have been added at the end of this document.
