@@ -42,5 +42,5 @@
  - [27. PI-CPC-Chair](27-PI-CPC-Chair.md)
  - [28. Treatment-Chair](28-Treatment-Chair.md)
  - [29. Web-Manager](29-Web-Manager.md)
- - [30. GSR-Group-Service-Representative](30-GSR-Group-Service-Representative.md)
+ - [30. GSR-Group-Service-Representative](30-GSR-Group-Service-Representative-Guidelines.md)
 
