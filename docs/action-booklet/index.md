@@ -33,4 +33,14 @@
 ### Guidelines Section
 
  - [20. DCM](20-DCM.md)
+ - [21. Alternate DCM](Alternate-DCM.md)
+ - [22. Secretary](Secretary.md)
+ - [23. Treasurer](Treasurer.md)
+ - [24. Archive-Chair](Archives-Chair.md)
+ - [25. Corrections-Chair](Corrections-Chair.md)
+ - [26. Grapevine-Literature-Chair](Grapevine-Literature-Chair.md)
+ - [27. PI-CPC-Chair](PI-CPC-Chair.md)
+ - [28. Treatment-Chair](Treatment-Chair.md)
+ - [29. Web-Manager](Web-Manager.md)
+ - [30. GSR-Group-Service-Representative](GSR-Group-Service-Representative.md)
 
