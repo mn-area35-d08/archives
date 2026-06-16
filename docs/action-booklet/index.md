@@ -32,13 +32,15 @@
 
 ### Guidelines Section
 
-- [DCM District Committee Member](dcm.md)
-- [Alternate DCM](altdcm.md)
-- [Secretary](secretary.md)
-- [Treasurer](treasurer.md)
-- [Archives](archives.md)
-- [Treatment Chair](treatment-chair.md)
-- [Corrections Chair](corrections-chair.md)
-- [Grapevine / Literature](grapevine-literature.md)
-- [Public Information / Cooperation with the Professional Community](pi-cpc.md)
-- [Web Manager](web-manager.md)
+- [20. DCM District Committee Member](dcm.md)
+- [21. Alternate DCM](altternate-dcm.md)
+- [22. Secretary](secretary.md)
+- [23. Treasurer](treasurer.md)
+- [24. Archives-Chair](archives-chair.md)
+- [25. Corrections-Chair](corrections-chair.md)
+- [26. Grapevine-Literature](grapevine-literature-chair.md)
+- [27. PI-CPC-Chair](pi-cpc-chair.md)
+- [28. Treatment-Chair](treatment-chair.md)
+- [29. Web-Manager](web-manager.md)
+- [30. GSR](gsr-group-service-representative.md)
+  
