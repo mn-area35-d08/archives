@@ -1,4 +1,5 @@
-# GSR TRUSTED SERVANT GUIDELINES
+# GSR-GROUP SERVICE REPRESENTATIVE Trusted Service Guidelines
+
 (From A.A. Service Manual pp. 8-11, 2021-2023 edition
 
 1.	Regularly attend area assemblies.  Your group is one of 93 areas that make up the U.S./Canada General Service Conference.  (See Map for a map of the General Service Conference areas.). Each area holds assemblies during a year.  GSRs are asked to attend and participate in these assemblies.  You have a voice and a vote.
@@ -15,6 +16,7 @@
 9.	Keep the alternate GSR informed and involved with all the latest information for the group.
 
 ## GUIDELINES SPECIFIC TO DISTRICT 8
+
 Updated February 2024
 
 1.	At the first district meeting of the new rotation, GSR names will be pulled from the hat, and each GSR will be requested to sit on a district service committee, such as Public in-formation/Cooperation with the Professional Community (PI/CPC), Treatment, Correc-tions, etc.  Each GSR will be active in working with the committee chair on their re-spective assigned committee.
