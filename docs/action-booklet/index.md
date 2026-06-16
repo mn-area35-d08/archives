@@ -32,5 +32,5 @@
 
 ### Guidelines Section
 
--[20. DCM](20-DCM.md)
+ - [20. DCM](20-DCM.md)
 
