@@ -19,5 +19,4 @@ so the archive can continue across changing service terms.
 - [Archives View](https://mn-area35-d08.github.io/archives/)
 - [Archives Edit](https://mn-area35-d08.github.io/archives/)
 
-
 ![logo](images/favicon_io/android-chrome-192x192.png)

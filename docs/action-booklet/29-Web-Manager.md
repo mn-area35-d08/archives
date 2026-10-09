@@ -1,6 +1,6 @@
 # WEB MANAGER Trusted Servant Guidelines
 
-## Position Description:
+## Position Description
 
 •  Manage the website regularly, checking its functionality.
 
@@ -9,4 +9,3 @@
 •  Track usage of the site and provide monthly report
 
 •  Don’t be afraid to ask for assistance!
-

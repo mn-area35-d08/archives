@@ -11,33 +11,34 @@
 # OBS: Zensical builds the public website into site/.
 # OBS: This workflow deploys only on pushes to main or manual runs.
 
+# Name shown in the repo Actions tab.
 name: Deploy Docs
 
 on:
   push:
-    branches:
-      - main
-  workflow_dispatch:
+    branches: [main]  # WHY: Deploy docs on every push to GitHub branch `main`.
+  workflow_dispatch:  # WHY: Allow manual trigger from Actions tab.
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-env:
-  PYTHONUNBUFFERED: "1"
-  PYTHONIOENCODING: "utf-8"
-  UV_PYTHON: "3.14"
+  contents: read   # WHY: Needed to checkout code.
+  pages: write     # WHY: Required to deploy to GitHub Pages.
+  id-token: write  # WHY: Required by deploy-pages for OIDC authentication.
 
 concurrency:
   group: pages-${{ github.ref }}
   cancel-in-progress: true
+  # WHY: Cancel an in-progress Pages deployment with another deployment.
+
+env:
+  PYTHONUNBUFFERED: "1"     # WHY: Real-time log output in CI.
+  PYTHONIOENCODING: "utf-8" # WHY: Consistent encoding across platforms.
+  UV_FROZEN: "1"            # WHY: Deployment MUST use uv.lock without updating it.
 
 jobs:
   docs:
     name: Build and deploy docs
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 30 # WHY: Fail fast if a step hangs unexpectedly.
 
     environment:
       name: github-pages
@@ -45,32 +46,45 @@ jobs:
 
     steps:
       # ============================================================
-      # A) ASSEMBLE: Checkout and prepare Python
+      # A) ASSEMBLE: Checkout code and set up environment
       # ============================================================
 
-      - name: A1) Check out repository
-        uses: actions/checkout@v6
+      - name: A1) Checkout repository code
+        uses: actions/checkout@v7.0.1
+        with:
+          persist-credentials: false
+        # WHY: Required so all subsequent steps can access repo files.
 
       - name: A2) Configure GitHub Pages
         uses: actions/configure-pages@v6
+        # WHY: Sets Pages metadata used by upload-pages-artifact and deploy-pages.
+        # OBS: Must run before the build step so base URL is available if needed.
 
-      - name: A3) Install uv
-        uses: astral-sh/setup-uv@v7
+      - name: A3) Install uv (with caching and uv.lock awareness)
+        uses: astral-sh/setup-uv@v10.2.0
         with:
           enable-cache: true
           cache-dependency-glob: "uv.lock"
+          # WHY: Invalidate dependency cache when the committed lockfile changes.
 
-      - name: A4) Install Python
-        run: uv python install 3.14
+      - name: A4) Install project Python
+        run: uv python install
+        # WHY: Ensures the Python version declared in .python-version is available.
+        # OBS: uv manages the interpreter locally in the CI environment.
 
-      - name: A5) Install dependencies
-        run: uv sync --extra docs --upgrade
+      - name: A5) Install dependencies from committed lockfile
+        run: uv sync --frozen
+        # WHY: Install all configured dependency groups exactly from uv.lock.
+        # REQ: Deployment MUST fail rather than update a stale lockfile.
 
       - name: A6) Show tool versions
         run: |
           uv --version
           uv run python --version
-          uv run python -m zensical --version
+          if [ -f "zensical.toml" ]; then
+            uv run python -m zensical --version
+          fi
+        # WHY: Version output makes deployment logs easier to debug when tools change.
 
       # ============================================================
       # B) BUILD: Generate the static site
@@ -91,18 +105,27 @@ jobs:
           if [ ! -d "site" ]; then
             echo "## Documentation build output missing" >> "$GITHUB_STEP_SUMMARY"
             echo "Expected directory 'site/' was not created." >> "$GITHUB_STEP_SUMMARY"
+            echo "Check the Zensical build step and zensical.toml configuration." >> "$GITHUB_STEP_SUMMARY"
             exit 1
           fi
+        # WHY: Catch a silent build failure before attempting to upload an empty artifact.
+        # OBS: Zensical outputs to site/ by default; update this path if zensical.toml
+        #      configures a different output directory.
 
       # ============================================================
-      # C) DEPLOY: Publish generated site
+      # D) DEPLOY: Publish generated site
       # ============================================================
 
-      - name: C1) Upload Pages artifact
+      - name: D1) Upload Pages artifact
         uses: actions/upload-pages-artifact@v5
         with:
           path: site
+        # WHY: Packages the built static site for the deploy-pages action.
+        # OBS: path must match the output directory verified above.
 
-      - name: C2) Deploy to GitHub Pages
+      - name: D2) Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
+        # WHY: Publishes the uploaded artifact to GitHub Pages.
+        # OBS: Requires pages: write and id-token: write permissions (set above).
+        # OBS: The deployed URL is shown in the Actions log after this step completes.

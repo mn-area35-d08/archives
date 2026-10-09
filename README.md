@@ -62,9 +62,18 @@ For best results, follow the detailed instructions in
 
 ```shell
 uv self update
-uv python pin 3.14
+uv python install
 uv lock --upgrade
-uv sync --extra docs --upgrade
+uv sync
+uv audit
+
+# set up and run git hooks
+uvx prek install --force
+uvx prek update
+git add -A
+uvx prek run --all-files
+# repeat if changes were made
+uvx prek run --all-files
 
 uv run python -m zensical build
 

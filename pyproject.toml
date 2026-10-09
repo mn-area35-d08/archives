@@ -11,5 +11,5 @@ description = "District 8 public archive site."
 requires-python = ">=3.14"
 dependencies = []
 
-[project.optional-dependencies]
+[dependency-groups]
 docs = ["zensical"]
