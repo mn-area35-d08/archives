@@ -197,7 +197,7 @@ Motion passed to bring back to home groups as to whether or not the rotation of 
 
 ## February 2009
 
-Motion passed to have 500 business cards printed for St. Louis County Sherriff to be given to people.
+Motion passed to have 500 business cards printed for St. Louis County sheriff to be given to people.
 
 ## March 2010
 
@@ -225,7 +225,8 @@ Motion passed to provide Treatment Chair & PI/CPC with $200 to order pamphlets t
 
 ## December 2014
 
-Motion passed to give PSA’s to public television channels 13,12,7,5 and 2 and to WELY, WEVE and KQDS radio stations. Member to distribute to radio/tv stations.
+Motion passed to give PSA’s to public television channels 13,12,7,5 and 2 and to WELY, WEVE and KQDS radio stations.
+Member to distribute to radio/tv stations.
 
 ## January 2015
 
